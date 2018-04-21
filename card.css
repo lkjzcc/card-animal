@@ -1,0 +1,86 @@
+<style>
+body{
+	background-color: rgb(197, 192, 192);
+	display: flex;
+	justify-content: center;
+}
+/*最外层实现水平居中*/
+.box1{
+	display: flex;
+	width: 500px;
+	height: 720px;
+	justify-content: center;/*子项目沿着主轴的排列方式为居中*/
+	flex-direction: column;/*纵轴为主轴*/
+	align-items: center;
+	background-color: rgb(243, 230, 230);
+	border-radius:25px;/*边框为半圆角*/
+}
+.box{
+	display: flex;
+	width: 470px;
+	height: 690px;
+	justify-content:space-between;/*设置项目在主轴为纵轴时的排列，每个项目之间有一定的间距*/
+	flex-direction: column;
+	/*align-items: center;*/
+	background-color: rgb(243, 230, 230);
+	border: 1px solid rgb(212, 201, 201);
+	box-shadow:6px 6px 4px #c0bebe;/*加阴影*/
+	border-radius:25px;
+}
+h3{
+	margin:5px;
+	padding:5px; 
+	align-self: flex-start;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+}
+img{
+	display: block;
+	align-self: flex-start;
+	margin:5px;
+	padding:5px; 
+}
+.little{
+	margin:5px;
+	padding:5px; 
+	align-self: flex-start;
+	text-align: left;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+.box2{
+	display: flex;
+	width: 440px;
+	height: 320px;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(243, 230, 230);
+	border: 1px solid rgb(212, 201, 201);
+}
+/*实现li标签的左对齐*/
+ul {
+	align-self: flex-start;
+	margin:5px;
+	padding:5px; 
+	text-align:left;
+}
+li{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 15px;
+}
+span{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+.specific{
+	align-self: flex-start;/*项目左对齐*/
+	margin:5px;
+	padding:5px; 
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 15px;
+}
+</style>
